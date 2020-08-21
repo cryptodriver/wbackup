@@ -18,9 +18,9 @@ Any file or directory
 More DB would be supported in the future...
 
 # Support OS  
-CentOS
-Unix
-Solaris
+CentOS  
+Unix  
+Solaris  
 
 # Usage
 INSTALL PATH: /opt/wbackup　　
@@ -34,7 +34,7 @@ One of backup type: postgresql mysql mongodb redis file
 User to run dump command as, defaults to logged in user  
 #RUNAS=postgres  
 
-DB user to connect to the database with, defaults to \$RUNASă  
+DB user to connect to the database with, defaults to RUNAS  
 #DBUSER=postgres
 
 # Backup settings
@@ -83,29 +83,29 @@ MYSQL
 #MYSQL_SOCK_PATHS=""  
 #MYSQL=""  
 #MYSQLDUMP=""  
-# Disable mysqldump --single-transaction0  
+##Disable mysqldump --single-transaction0  
 #MYSQLDUMP_NO_SINGLE_TRANSACTION=""  
-# Disable to enable autocommit  
+##Disable to enable autocommit  
 #MYSQLDUMP_AUTOCOMMIT="1"  
-# Set to enable complete inserts (true by default, disabling enable extended inserts)  
+##Set to enable complete inserts (true by default, disabling enable extended inserts)  
 #MYSQLDUMP_COMPLETEINSERTS="1"  
-# Disable mysqldump --lock-tables=false  
+##Disable mysqldump --lock-tables=false  
 #MYSQLDUMP_LOCKTABLES=""  
-# Set to add extra dumps info  
+##Set to add extra dumps info  
 #MYSQLDUMP_DEBUG=""  
-# Set to disable dump routines  
+##Set to disable dump routines  
 #MYSQLDUMP_NOROUTINES=""  
-# Use ssl to connect  
+##Use ssl to connect  
 #MYSQL_USE_SSL=""  
 
 Mongodb
-# MONGODB_PATH="\${MONGODB_PATH:-"/var/lib/mongodb"}"  
-# MONGODB_USER="\${MONGODB_USER:-""}"  
-# MONGODB_PASSWORD="\${MONGODB_PASSWORD:-"\${PASSWORD}"}"  
-# MONGODB_ARGS="\${MONGODB_ARGS:-""}"  
+#MONGODB_PATH="\${MONGODB_PATH:-"/var/lib/mongodb"}"  
+#MONGODB_USER="\${MONGODB_USER:-""}"  
+#MONGODB_PASSWORD="\${MONGODB_PASSWORD:-"\${PASSWORD}"}"  
+#MONGODB_ARGS="\${MONGODB_ARGS:-""}"  
 
 Redis  
-# REDIS_PATH="\${REDIS_PATH:-"/var/lib/redis"}"  
+#REDIS_PATH="\${REDIS_PATH:-"/var/lib/redis"}"  
 
 Remote server settings(remote transfer will be skipped if no setting)  
 #TRANSHOST=192.168.0.1  
