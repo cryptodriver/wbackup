@@ -1,0 +1,25 @@
+BACKUP_TYPE=mysql
+
+# Database conec user
+#PASSWORD="root"
+DBUSER="root"
+
+# List of DBNAMES for backup e.g. "DB1 DB2 DB3"
+DBNAMES="test_db"
+
+# List of DBNAMES to EXLUCDE if DBNAMES are set to all (must be in " quotes)
+#DBEXCLUDE=""
+
+MYSQL="/opt/mysql/bin/mysql"
+MYSQLDUMP="/opt/mysql/bin/mysqldump"
+
+# remote backup server
+TRANSCMD=scp
+#TRANSCMD=ftp
+
+TRANSHOST=10.0.2.116
+TRNASUSER=wbackup
+#TRNASPSWD=root
+TRNASKEY=/root/.ssh/id_rsa
+
+TRANSPATH=/backup/sc-nfs00v-stg-p

@@ -1,0 +1,21 @@
+BACKUP_TYPE=file
+
+# List directories to backup e.g. "/home/user1 /home/user2"
+DBNAMES="/home/user/test /home/user/test2"
+
+# List files to backup e.g. "/home/user/test_*.sql"
+#DBNAMES="/home/user/test/*.txt"
+
+# If it's directory, SET nocomp(archived by tar as default)
+COMP=nocomp
+
+# remote backup server
+TRANSCMD=scp
+#TRANSCMD=ftp
+
+TRANSHOST=10.236.82.196
+TRNASUSER=wbackup
+#TRNASPSWD=root
+TRNASKEY=/root/.ssh/id_rsa
+
+TRANSPATH=/backup/
