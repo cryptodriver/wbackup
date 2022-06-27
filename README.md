@@ -18,12 +18,12 @@ Any file or directory
 More DB would be supported in the future...
 
 # Support OS  
-Linux Distributions and not limited to these below:
-Debian
-Ubuntu
-RedHat
-CentOS
-Solaris  
+Linux Distributions and not limited to these below: 
+Debian 
+Ubuntu 
+RedHat 
+CentOS 
+Solaris   
 
 # Usage
 INSTALL PATH: /opt/wbackup　　
