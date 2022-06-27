@@ -18,8 +18,11 @@ Any file or directory
 More DB would be supported in the future...
 
 # Support OS  
-CentOS  
-Unix  
+Linux Distributions and not limited to these below:
+Debian
+Ubuntu
+RedHat
+CentOS
 Solaris  
 
 # Usage
